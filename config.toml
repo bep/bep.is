@@ -1,0 +1,6 @@
+baseurl = "http://bep.is"
+languageCode = "en-us"
+title = "bep.is"
+pygmentsStyle = "trac"
+canonifyUrls = "false   "
+disableRSS = "true"
