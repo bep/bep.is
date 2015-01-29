@@ -3,9 +3,13 @@
 @color-base: #385466;
 //@color-base:  white;
 @color-bg: white;
+@font-family: "ff-meta-serif-web-pro", Georgia, serif;
+
+// will be toggled by script
+@import "variants/bep-variant-2.less";
 
 html {
-  font-family: ff-meta-serif-web-pro, Georgia, serif;
+  font-family: @font-family;
   font-size: 23px;
   font-weight: @font-weight-regular;
   color: @color-base;
@@ -23,12 +27,13 @@ body {
 
 .container {
   margin: 3rem;
-  padding: 10% 30%;
+  padding: 10% 20%;
   background-color: lighten(@color-base, 50%);
 }
 
 .about {
-
+  max-width: 600px;
+  word-break: keep-all;
 }
 
 @media (max-width: 70em) {
@@ -43,8 +48,10 @@ body {
   .container {
     margin: 1rem;
     padding: 2% 2%;
+    background: none;
 
   }
+
   html {
     font-size: 20px;
   }
