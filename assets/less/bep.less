@@ -1,27 +1,59 @@
-
-
-@font-weight-regular: 400;
+@font-weight-regular: 500;
 @font-weight-bold: 700;
-
+@color-base: #385466;
+//@color-base:  white;
+@color-bg: white;
 
 html {
-  font-family: adriane, Georgia, serif;
-  font-size: 33px;
+  font-family: ff-meta-serif-web-pro, Georgia, serif;
+  font-size: 23px;
   font-weight: @font-weight-regular;
-  color: #385466;
+  color: @color-base;
+  background-color: @color-bg;
+}
+
+html, body {
+  height: 90%;
 }
 
 body {
-  margin: 2rem;
   font-size: 1rem;
+  line-height: 1.4rem;
 }
 
-h1 {
-  font-size: 1.6rem;
-  //letter-spacing: -0.03rem;
-  font-weight: @font-weight-bold;
+.container {
+  margin: 3rem;
+  padding: 10% 30%;
+  background-color: lighten(@color-base, 50%);
+}
+
+.about {
+
+}
+
+@media (max-width: 70em) {
+  .container {
+    margin: 1rem;
+    padding: 5% 10%;
+
+  }
+}
+
+@media (max-width: 40em) {
+  .container {
+    margin: 1rem;
+    padding: 2% 2%;
+
+  }
+  html {
+    font-size: 20px;
+  }
 }
 
 .wf-loading body {
   visibility: hidden;
+}
+
+a {
+  color: lighten(@color-base, 10%);
 }
