@@ -28,12 +28,11 @@ body {
 .container {
   margin: 3rem;
   padding: 10% 20%;
-  background-color: lighten(@color-base, 50%);
+  background-color: lighten(@color-base, 58%);
 }
 
 .about {
-  max-width: 600px;
-  word-break: keep-all;
+  max-width: 620px;
 }
 
 @media (max-width: 70em) {
@@ -62,5 +61,19 @@ body {
 }
 
 a {
+  display: inline-block;
+  border-bottom: 1px dashed lighten(@color-base, 10%);
+  /* Font styles */
+  text-decoration: none;
   color: lighten(@color-base, 10%);
+
+  &:hover {
+    border-bottom-style: dotted;
+  }
+  &:active {
+    position: relative;
+    border-bottom-style: solid;
+    top: 1px;
+  }
+
 }
