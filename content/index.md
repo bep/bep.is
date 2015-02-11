@@ -10,4 +10,6 @@ Find me at [GitHub](https://github.com/bep), [LinkedIn](https://www.linkedin.com
 When I have something clever to say, I scribble it down at [bepsays.com](http://bepsays.com/).
 It’s mostly in Norwegian, but some [English](http://bepsays.com/english/) content can be found.
 
+My verified public key (PGP) can be found at [keybase.io/bep](https://keybase.io/bep).
+
 You can reach me at [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com).

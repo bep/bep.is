@@ -27,3 +27,4 @@ weight = 3
 title = "bep.is (bokmål)"
 [Languages.nb.blackfriday]
 angledQuotes = true
+
