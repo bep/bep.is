@@ -4,3 +4,26 @@ title = "bep.is"
 pygmentsStyle = "trac"
 canonifyUrls = "false   "
 disableRSS = "true"
+disablesitemap = "true"
+DefaultContentLanguage = "en"
+# This is the default, but make it explicit
+defaultContentLanguageInSubdir = false
+
+[params]
+description = "bep.is is a single page about Bjørn Erik Pedersen."
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[Languages.nn]
+weight = 2
+title = "bep.is (nynorsk)"
+[Languages.nn.blackfriday]
+angledQuotes = true
+
+[Languages.nb]
+weight = 3
+title = "bep.is (bokmål)"
+[Languages.nb.blackfriday]
+angledQuotes = true
