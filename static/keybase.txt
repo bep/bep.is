@@ -1,0 +1,84 @@
+==================================================================
+https://keybase.io/bep
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bep.is
+  * I am bep (https://keybase.io/bep) on keybase.
+  * I have a public key with fingerprint AF2E 1F2C F3B5 A38D CC80  73E4 C640 08BC 136A 1391
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.5"
+        },
+        "key": {
+            "fingerprint": "af2e1f2cf3b5a38dcc8073e4c64008bc136a1391",
+            "host": "keybase.io",
+            "key_id": "C64008BC136A1391",
+            "uid": "f4b440428a2c3e7309bd8914e58cf900",
+            "username": "bep"
+        },
+        "merkle_root": {
+            "ctime": 1423694478,
+            "hash": "cba3fca08900b2b40dabc820959f0426e42cb646a8dd753d32d313f6d4945d545dc7197b4a0908d6025aee6aa0f745b51f6412aca691cda461a4a10438b19506",
+            "seqno": 153941
+        },
+        "service": {
+            "hostname": "bep.is",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423694638,
+    "expire_in": 157680000,
+    "prev": "1dc300c727042e797887b24a1909113c96921c57e36d5025b1960f7db1466f20",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkgtMFEccxo/T0oLlEaiP8rB4KIVIz33MvtC0qBWKqcrjkhKhnrO7s8fC3e31
+7gAJ4AuKFalCQEtJsUqxFWmNtAEr1Bq0YFIMcKk1Kfgo0CISQZTaR0JpdwmNdZJN
+Zmd+8/2/7z9T6bdAp/fqjn/um+Ds4Cqvnnu8zjQ4aCw08IpYYIgrNAhWGdnd2swO
+bcgQZ8hBBTx0IaOsRNgVERmzXRHzTKwhDzldsmJXKczIGClDcayGa4cl2W5BTodT
+1rQMUCIQLhGCRPIUJFlREFiMIREQaIBhLC/gJA1xksNVySzF5X6qqmFO0yyL6urG
+OX7DRpVfP8/nzm1IgAcAAwQLCYFEDIlxvMhyOEAUK0gchmmgCznnI/HIoVm1IWeO
+FZmdijKXV3DL2i4OCJLmAGBY1Qx0Zam8wENSEiDGqko8wQNMhLzAEhhHcZJalEaA
+EHga0JAVRYYiRZIQSZyUaBFwgBIp9RMYnGN4ADEOY0UaIyiIEA0hJjGA4ilcogFO
+QAHSHC6IENA4BBDHAMnyOEdhtOrehd6xK6o5iuQAXqz9O/NkAWm+tY49CWaUXSru
+cCpuRVCs6lqW2+2I0+K6Cxwak4948/xpMy/bG0T1pv5/lZr6062gSbUVaJdDdiKz
+rBEUQ7OYOrQ6KE/VxEWBxDCBIRi1HYjhGJZleELNwGEcjpMCR3MELlAMImmRUtOr
+sWg1u8jjgKYlAnsSEKg+oUWVdMkWO3TnOpGh+KA+bKHOS6/zfkavvVWdr0/gfw94
++8OAf9aTs5MbotJTxn473qXblLpkS1FqbVVrQsO+mCtlL9+kYy/dOXrE0iiPnsk5
+9WebZ3XQlykZcMdE34n2/BW/Bvl7EqYTHg2di738taXkZNCFP6Y+eTY6aOmKAXbw
+WIt/5Shorql/W3nh+V0z+3wLT7+/bUlELxxKWFceMKZvMLdOvNE7ars405m4pjmx
+P+RoerkuvKqr5DHpd7Zy4K0j7b9vdVkPnJ/IjIr/oIFY2VScm7bbpY9Ou5rY7Ddz
+Ym0t4R4wLTq+aiT8dn/83aTDH5qm9t++E/iD93j+A2t26Omp/aULPeduEK93XD3p
+/WiiYiiZTfYsXiNdjqIXwDZ7km3pjWWrX2G39A019LYpPUJ2ctePjWiwc5brL9q7
+xydmdGf9TJMjoyQ41DfuTa+K4XzP8s/z9lDhX5TUX1h5nesQb54KnIy9fg0bf7eu
+uC9kd0Zl+IvtP5f+7aDoutKkRdvKeq54xbfetyTbNo8s6z4Uc8Z/Nm2vqbvP9u0o
+VvNg88EIXebMe5+WhfgF+h+ipr/7JaazvK56rHNiJLWmIj3qbMv2oo/O14ZsrQF/
+BVy69XGeOVK6/1PpdHxYo75n6OKqCL8UJhFmtpjuGSuUEE9uxmcdd9faO5bfig7f
+2fUwa9jaNl09Hrmjd5NPTf6rkV+lhluiPdnV1w4f+940PJUbGrau6bWm2IzHk4tf
++hc=
+=FzJr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bep
+
+==================================================================
+
+
