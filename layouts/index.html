@@ -3,7 +3,6 @@
 <html lang="en">
 {{ partial "head.html" . }}
 <body>
-<script src="/assets/js/bep.js"></script>
 <div class="container">
     <div class="about">
         {{ range where .Data.Pages "Title" "index" }}
@@ -11,5 +10,6 @@
         {{ end }}
     </div>
 </div>
+<script src="/assets/js/bep.js"></script>
 </body>
 </html>
