@@ -5,7 +5,8 @@ pygmentsStyle = "trac"
 canonifyUrls = "false   "
 disableRSS = "true"
 disablesitemap = "true"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
+
 # This is the default, but make it explicit
 defaultContentLanguageInSubdir = false
 
@@ -27,4 +28,3 @@ weight = 3
 title = "bep.is (bokmål)"
 [Languages.nb.blackfriday]
 angledQuotes = true
-

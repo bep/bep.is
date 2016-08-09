@@ -8,6 +8,7 @@
         {{ range where .Data.Pages "Title" "index" }}
         {{ template "_default/content.html" . }}
         {{ end }}
+        {{ partial "translations.html" . }}
     </div>
 </div>
 <script src="/assets/js/bep.js"></script>

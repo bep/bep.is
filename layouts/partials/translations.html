@@ -1,0 +1,6 @@
+{{ if .IsTranslated }}
+<div class="translations">
+    <span class="lead">{{ i18n "translations" }}: </span>
+    {{ range $i, $e := .Translations }}{{ if $i }}, {{ end }}<a href="{{ $e.Permalink }}">{{ $e.Lang }}</a>{{ end }}
+</div>
+{{ end }}
