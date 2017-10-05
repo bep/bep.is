@@ -3,8 +3,7 @@ languageCode = "en-us"
 title = "bep.is"
 pygmentsStyle = "trac"
 canonifyUrls = "false   "
-disableRSS = "true"
-disablesitemap = "true"
+disableKinds=["RSS", "sitemap"]
 defaultContentLanguage = "en"
 
 # This is the default, but make it explicit
