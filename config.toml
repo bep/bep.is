@@ -36,6 +36,7 @@ disable = true
 [privacy.googleAnalytics]
 respectDoNotTrack = true
 anonymizeIP = true
+useSessionStorage = true
 [privacy.instagram]
 disable = true
 [privacy.speakerDeck]
