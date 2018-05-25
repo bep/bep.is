@@ -9,9 +9,6 @@ nohup.out
 /static/assets/css/bep.*
 /static/assets/js/bep.*
 
-layouts/partials/footer.html
-layouts/partials/head.html
-layouts/partials/gitinfo.html
 script/pickled_dict
 /static/**/.thumbnails
 pickled_dict

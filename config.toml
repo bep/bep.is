@@ -9,6 +9,8 @@ defaultContentLanguage = "en"
 # This is the default, but make it explicit
 defaultContentLanguageInSubdir = false
 
+googleAnalytics = "UA-52478213-6"
+
 [params]
 description = "bep.is is a single page about Bjørn Erik Pedersen."
 
@@ -27,3 +29,20 @@ weight = 3
 title = "bep.is (bokmål)"
 [Languages.nb.blackfriday]
 angledQuotes = true
+
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+respectDoNotTrack = true
+anonymizeIP = true
+[privacy.instagram]
+disable = true
+[privacy.speakerDeck]
+disable = true
+[privacy.twitter]
+enableDNT = true
+[privacy.vimeo]
+disable = true
+[privacy.youtube]
+privacyEnhanced = true
