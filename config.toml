@@ -1,15 +1,23 @@
+
 baseurl = "http://bep.is"
 languageCode = "en-us"
 title = "bep.is"
 pygmentsStyle = "trac"
 canonifyUrls = "false   "
-disableKinds=["RSS", "sitemap"]
+disableKinds=["RSS", "sitemap", "taxonomy", "term"]
 defaultContentLanguage = "en"
+timeZone = "Europe/Oslo"
 
 # This is the default, but make it explicit
 defaultContentLanguageInSubdir = false
 
 googleAnalytics = "UA-52478213-6"
+
+
+
+[module]
+[[module.imports]]
+path="github.com/bep/hugo-mod-misc/render-hooks"
 
 [params]
 description = "bep.is is a single page about Bjørn Erik Pedersen."
@@ -17,18 +25,15 @@ description = "bep.is is a single page about Bjørn Erik Pedersen."
 [Languages]
 [Languages.en]
 weight = 1
+languageName="English"
 
 [Languages.nn]
 weight = 2
-title = "bep.is (nynorsk)"
-[Languages.nn.blackfriday]
-angledQuotes = true
+languageName="nynorsk"
 
 [Languages.nb]
 weight = 3
-title = "bep.is (bokmål)"
-[Languages.nb.blackfriday]
-angledQuotes = true
+languageName="bokmål"
 
 [privacy]
 [privacy.disqus]

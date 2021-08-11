@@ -1,14 +1,29 @@
-<!doctype html>
-
-<html lang="en">
-{{ partial "head.html" . }}
-<body>
-<div class="container">
-    <div class="about">
-       {{ .Content }}
-       {{ partial "translations.html" . }}
+{{ define "main" }}
+  <div class="relative bg-white">
+    <div class="lg:absolute lg:inset-0">
+      <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+        <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="{{ `cover.jpg` | relURL }}" alt="">
+      </div>
     </div>
-</div>
-<script src="/assets/js/bep.js"></script>
-</body>
-</html>
+    <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
+      <div class="lg:col-start-2 lg:pl-8 lg:h-screen">
+        <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+          <div class="mt-5 prose prose-blue text-gray-500">
+            {{ .Content }}
+          </div>
+          <div class="mt-5 py-2 flex space-x-4 prose-blue text-gray-400 text-sm italic">
+            <div>
+              {{ T "last-updated" }}: {{ .Lastmod | time.Format ":date_long" }}
+            </div>
+            {{ if .IsTranslated }}
+              <div>
+                {{ i18n "translations" }}: {{ partial "translations.html" . }}.
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+{{ end }}

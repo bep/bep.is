@@ -1,2 +1,5 @@
 - id: translations
   translation: "Andre språk"
+
+- id: last-updated
+  translation: "Sist oppdatert"

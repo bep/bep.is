@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/all.css";
+
+@import url("https://use.typekit.net/pkh4bbh.css");
+
+html {
+    font-size: 14px;
+}
+
+@screen md {
+    html {
+        font-size: 16px;
+    }
+}
