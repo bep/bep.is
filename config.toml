@@ -13,6 +13,11 @@ defaultContentLanguageInSubdir = false
 
 googleAnalytics = "UA-52478213-6"
 
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 71
+anchor = "smart"
+
 
 
 [module]
@@ -20,7 +25,7 @@ googleAnalytics = "UA-52478213-6"
 path="github.com/bep/hugo-mod-misc/render-hooks"
 
 [params]
-description = "bep.is is a single page about Bjørn Erik Pedersen."
+description = "bep.is is a page about Bjørn Erik Pedersen."
 
 [Languages]
 [Languages.en]

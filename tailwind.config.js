@@ -13,6 +13,11 @@ module.exports = {
 		fontFamily: {
 			...theme.fontFamily,
 			serif: [ 'ff-tisa-web-pro', ...theme.fontFamily.serif ]
+		},
+		extend: {
+			screens: {
+				tablet: { min: '640px', max: '1024px' }
+			}
 		}
 	},
 	purge: {

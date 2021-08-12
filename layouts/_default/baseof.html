@@ -5,6 +5,7 @@
     <title>
       {{ .Title }}
     </title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
     {{ hugo.Generator }}
     
     {{/* SEO */}}
@@ -43,7 +44,7 @@
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
   </head>
-  <body class="font-serif">
+  <body class="font-serif max-w-full">
     {{ block "main" . }}{{ end }}
   </body>
 </html>
