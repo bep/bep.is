@@ -1,5 +1,6 @@
 - id: translations
-  translation: "In other languages"
+  one: "Translated"
+  other: "Translations"
 
 - id: last-updated
   translation: "Last updated"

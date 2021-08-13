@@ -8,8 +8,7 @@ disableKinds=["RSS", "sitemap", "taxonomy", "term"]
 defaultContentLanguage = "en"
 timeZone = "Europe/Oslo"
 
-# This is the default, but make it explicit
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 googleAnalytics = "UA-52478213-6"
 
@@ -34,11 +33,8 @@ languageName="English"
 
 [Languages.nn]
 weight = 2
-languageName="nynorsk"
+languageName="norsk"
 
-[Languages.nb]
-weight = 3
-languageName="bokmål"
 
 [privacy]
 [privacy.disqus]

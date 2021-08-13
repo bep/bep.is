@@ -2,13 +2,13 @@
   <div class="relative">
     <div class="lg:absolute lg:inset-0">
       <div class="lg:absolute lg:inset-y-0 lg:left-0 w-full lg:w-1/2">
-        {{ $image := .Resources.GetMatch "featured*.jpg" }}
+        {{ $image := resources.Get "images/featherland.jpg" }}
         {{ $imageWebp := $image.Resize "1600x webp" }}
         {{ $image1x := $image.Resize "800x" }}
         {{ $image1xWebp := $image.Resize "800x webp" }}
         <picture>
           <source srcset="{{ $imageWebp.RelPermalink }}" type="image/webp" media="(min-width: 1200px)">
-          <source srcset="{{ $image.RelPermalink }}" type="image/jpeg" media="(min-width: 640px)">
+          <source srcset="{{ $image.RelPermalink }}" type="image/jpeg" media="(min-width: 1200px)">
           <source srcset="{{ $image1xWebp.RelPermalink }}" type="image/webp">
           <source srcset="{{ $image1x.RelPermalink }}" type="image/jpeg">
           <img class="h-64 tablet:h-96 lg:h-full w-full object-cover lg:absolute" src="{{ $image1x.RelPermalink }}" alt="" width="{{ $image1x.Width }}" height="{{ $image1x.Height }}">
@@ -27,7 +27,7 @@
             </div>
             {{ if .IsTranslated }}
               <div>
-                {{ i18n "translations" }}: {{ partial "translations.html" . }}.
+                {{ i18n "translations" (len .Translations) }}: {{ partial "translations.html" . }}.
               </div>
             {{ end }}
           </div>

@@ -1,5 +1,6 @@
 - id: translations
-  translation: "Andre språk"
+  one: "Omsetjing"
+  other: "Omsetjingar"
 
 - id: last-updated
   translation: "Sist oppdatert"

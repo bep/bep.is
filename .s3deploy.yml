@@ -4,7 +4,7 @@ routes:
       headers:
          Cache-Control: "max-age=630720000, no-transform, public"
       gzip: true
-    - route: "^.+\\.(png|jpg)$"
+    - route: "^.+\\.(png|jpg|webp)$"
       headers:
          Cache-Control: "max-age=630720000, no-transform, public"
       gzip: true
