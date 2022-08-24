@@ -1,6 +1,6 @@
 +++
 title = "bep.is"
-lastMod = "2021-08-11"
+lastMod = "2021-08-23"
 +++
 
 bep.*is* Bjørn Erik Pedersen, ein programvareutviklar og saksofonist frå Noreg.
