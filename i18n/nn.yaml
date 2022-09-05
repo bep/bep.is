@@ -4,3 +4,7 @@
 
 - id: last-updated
   translation: "Sist oppdatert"
+
+
+- id: home
+  translation: "Heim"
