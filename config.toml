@@ -1,55 +1,54 @@
 
-baseurl = "http://bep.is"
-languageCode = "en-us"
-title = "bep.is"
-pygmentsStyle = "trac"
-canonifyUrls = "false   "
-disableKinds=["RSS", "sitemap", "taxonomy", "term"]
+baseurl                = "http://bep.is"
+languageCode           = "en-us"
+title                  = "bep.is"
+pygmentsStyle          = "trac"
+canonifyUrls           = "false   "
+disableKinds           = ["RSS", "sitemap", "taxonomy", "term"]
 defaultContentLanguage = "en"
-timeZone = "Europe/Oslo"
+timeZone               = "Europe/Oslo"
 
 defaultContentLanguageInSubdir = true
 
-googleAnalytics = "UA-52478213-6"
+[services]
+    [services.googleAnalytics]
+        id = "G-WSTN6R3X91"
 
 [imaging]
-resampleFilter = "CatmullRom"
-quality = 71
-anchor = "smart"
-
-
+    resampleFilter = "CatmullRom"
+    quality        = 71
+    anchor         = "smart"
 
 [module]
-[[module.imports]]
-path="github.com/bep/hugo-mod-misc/render-hooks"
+    [[module.imports]]
+        path = "github.com/bep/hugo-mod-misc/render-hooks"
 
 [params]
-description = "bep.is is a page about Bjørn Erik Pedersen."
+    description = "bep.is is a page about Bjørn Erik Pedersen."
 
 [Languages]
-[Languages.en]
-weight = 1
-languageName="English"
+    [Languages.en]
+        weight       = 1
+        languageName = "English"
 
-[Languages.nn]
-weight = 2
-languageName="norsk"
-
+    [Languages.nn]
+        weight       = 2
+        languageName = "norsk"
 
 [privacy]
-[privacy.disqus]
-disable = true
-[privacy.googleAnalytics]
-respectDoNotTrack = true
-anonymizeIP = true
-useSessionStorage = true
-[privacy.instagram]
-disable = true
-[privacy.speakerDeck]
-disable = true
-[privacy.twitter]
-enableDNT = true
-[privacy.vimeo]
-disable = true
-[privacy.youtube]
-privacyEnhanced = true
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        respectDoNotTrack = true
+        anonymizeIP       = true
+        useSessionStorage = true
+    [privacy.instagram]
+        disable = true
+    [privacy.speakerDeck]
+        disable = true
+    [privacy.twitter]
+        enableDNT = true
+    [privacy.vimeo]
+        disable = true
+    [privacy.youtube]
+        privacyEnhanced = true
