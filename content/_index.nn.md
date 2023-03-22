@@ -10,3 +10,7 @@ Finn meg på [GitHub](https://github.com/bep), [LinkedIn](https://no.linkedin.co
 Min offentlege krypteringsnøkkel (PGP) finn du på [keybase.io/bep](https://keybase.io/bep).
 
 Du kan elles nå meg på [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com).
+
+---
+
+Og, for meg sjølv på reisefot, reiseforsikring: Unlimited amount, phone: +47 21 49 24 14, e-mail: fga@no.falck.com, name: Bjørn Erik Pedersen, product no: 4320593 Reise Enkeltperson, expire date: 01.05.2023.

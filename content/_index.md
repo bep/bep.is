@@ -11,3 +11,7 @@ Find me at [GitHub](https://github.com/bep), [LinkedIn](https://no.linkedin.com/
 My verified public key (PGP) can be found at [keybase.io/bep](https://keybase.io/bep).
 
 You can reach me at [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com).
+
+---
+
+And, for myself when out travelling, my current travel insurance info: Unlimited amount, phone: +47 21 49 24 14, e-mail: fga@no.falck.com, name: Bjørn Erik Pedersen, product no: 4320593 Reise Enkeltperson, expire date: 01.05.2023.
