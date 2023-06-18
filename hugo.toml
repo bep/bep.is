@@ -9,6 +9,32 @@ timeZone               = "Europe/Oslo"
 
 defaultContentLanguageInSubdir = true
 
+[deployment]
+    [[deployment.targets]]
+        name                     = "s3"
+        url                      = "s3://bep.is?region=eu-west-1&prefix=root"
+        cloudFrontDistributionID = "E1TX7TXFKWFR6S"
+    [[deployment.matchers]]
+        # Cache static assets for 1 year.
+        pattern      = "^.+\\.(js|css|svg|ttf)$"
+        cacheControl = "max-age=31536000, no-transform, public"
+        gzip         = true
+
+    [[deployment.matchers]]
+        pattern      = "^.+\\.(png|jpg)$"
+        cacheControl = "max-age=31536000, no-transform, public"
+        gzip         = false
+
+    [[deployment.matchers]]
+        # Set custom content type for /sitemap.xml
+        pattern     = "^sitemap\\.xml$"
+        contentType = "application/xml"
+        gzip        = true
+
+    [[deployment.matchers]]
+        pattern = "^.+\\.(html|xml|json)$"
+        gzip    = true
+
 [services]
     [services.googleAnalytics]
         id = "G-WSTN6R3X91"
