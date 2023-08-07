@@ -13,4 +13,4 @@ Du kan elles nå meg på [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.peder
 
 ---
 
-Og, for meg sjølv på reisefot, reiseforsikring: Unlimited amount, phone: +47 21 49 24 14, e-mail: fga@no.falck.com, name: Bjørn Erik Pedersen, product no: 4320593 Reise Enkeltperson, expire date: 01.05.2023.
+Og, for meg sjølv på reisefot, reiseforsikring: Policy Number: 8581441. trygalarm@tryg.no / +47 55 17 10 01. For non-emergency claims: +47 915 04040.
