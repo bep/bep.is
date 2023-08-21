@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = true
 [deployment]
     [[deployment.targets]]
         name                     = "s3"
-        url                      = "s3://bep.is?region=eu-west-1&prefix=root"
+        url                      = "s3://bep.is?region=eu-west-1&prefix=root/"
         cloudFrontDistributionID = "E1TX7TXFKWFR6S"
     [[deployment.matchers]]
         # Cache static assets for 1 year.
