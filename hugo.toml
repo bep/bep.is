@@ -14,6 +14,7 @@ defaultContentLanguageInSubdir = true
         name                     = "s3"
         url                      = "s3://bep.is?region=eu-west-1&prefix=root/"
         cloudFrontDistributionID = "E1TX7TXFKWFR6S"
+        stripIndexHtml           = true
     [[deployment.matchers]]
         # Cache static assets for 1 year.
         pattern      = "^.+\\.(js|css|svg|ttf)$"
