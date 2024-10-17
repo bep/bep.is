@@ -15,4 +15,3 @@ Du kan elles nå meg på [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.peder
 
 Og, for meg sjølv på reisefot, reiseforsikring: Policy Number: 8581441. trygalarm@tryg.no / +47 55 17 10 01. For non-emergency claims: +47 915 04040.
 
-...
