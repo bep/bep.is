@@ -72,8 +72,6 @@ defaultContentLanguageInSubdir = true
         disable = true
     [privacy.speakerDeck]
         disable = true
-    [privacy.twitter]
-        enableDNT = true
     [privacy.vimeo]
         disable = true
     [privacy.youtube]
