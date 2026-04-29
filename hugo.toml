@@ -9,6 +9,9 @@ timeZone               = "Europe/Oslo"
 
 defaultContentLanguageInSubdir = true
 
+[security.node.permissions]
+    disable = true
+
 [deployment]
     [[deployment.targets]]
         name                     = "s3"
