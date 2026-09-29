@@ -19,7 +19,7 @@
 						<li>
 							<a href="{{ .url }}" rel="me noopener">
 								<span class="links__name">{{ .name }}</span>
-								<span class="links__desc">{{ T .desc }}</span>
+								<span class="links__desc">{{ T .desc | title }}</span>
 								<span class="links__arrow" aria-hidden="true">→</span>
 							</a>
 						</li>
