@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ $sites := slice }}
+{{ range .AllTranslations }}
+	{{ $sites = $sites | append .Site }}
+{{ end }}
+{{ partial "not-found.html" $sites }}
+{{ end }}

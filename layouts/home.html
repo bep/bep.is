@@ -1,0 +1,36 @@
+{{ define "main" }}
+<main class="shore">
+	{{ partial "hero.html" (dict "short" false) }}
+	<article class="doc doc--home">
+		<header class="doc-head">
+			<h1 class="title">
+				<span class="wordmark">bep.<em>is</em></span>
+				<span class="name">{{ site.Params.author }}.</span>
+			</h1>
+			<div class="lede">{{ .Summary }}</div>
+			{{ partial "translations.html" . }}
+		</header>
+
+		{{ with site.Params.elsewhere }}
+			<section class="block" aria-labelledby="elsewhere">
+				<h2 id="elsewhere" class="rule">{{ T "elsewhere" }}</h2>
+				<ul class="links">
+					{{ range . }}
+						<li>
+							<a href="{{ .url }}" rel="me noopener">
+								<span class="links__name">{{ .name }}</span>
+								<span class="links__desc">{{ T .desc }}</span>
+								<span class="links__arrow" aria-hidden="true">→</span>
+							</a>
+						</li>
+					{{ end }}
+				</ul>
+			</section>
+		{{ end }}
+
+		<div class="prose">
+			{{ .ContentWithoutSummary }}
+		</div>
+	</article>
+</main>
+{{ end }}

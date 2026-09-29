@@ -1,0 +1,19 @@
+{{- $sameAs := slice -}}
+{{- range site.Params.elsewhere }}
+	{{- $sameAs = $sameAs | append .url -}}
+{{- end -}}
+{{- $ld := dict
+	"@context" "https://schema.org"
+	"@type" "ProfilePage"
+	"url" .Permalink
+	"inLanguage" site.Language.Locale
+	"mainEntity" (dict
+		"@type" "Person"
+		"name" site.Params.author
+		"alternateName" site.Params.authorHandle
+		"email" (printf "mailto:%s" site.Params.email)
+		"nationality" "Norwegian"
+		"sameAs" $sameAs
+	)
+-}}
+<script type="application/ld+json">{{ $ld | jsonify (dict "indent" "  ") | safeJS }}</script>

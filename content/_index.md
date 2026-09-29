@@ -1,19 +1,18 @@
 +++
 title = "bep.is"
-lastMod = "2021-08-11"
-
+lastMod = "2026-09-29"
+# notfound renders the root /404.html, see hugo.toml.
+outputs = ["html", "notfound"]
 +++
 
-bep.*is* Bjørn Erik Pedersen. I’m a software developer and saxophone player from Norway (see photo).
+I’m a software developer and saxophone player from Norway (see photo).
 
-Find me at [GitHub](https://github.com/bep), [LinkedIn](https://no.linkedin.com/in/bjørn-erik-pedersen-b0024415), [Wikipedia](https://nn.wikipedia.org/wiki/Brukar:Bep) and [Twitter](https://twitter.com/bepsays). See a selection of my photos at [staticbattery.com](https://staticbattery.com/), and when I have something clever to say, I scribble it down at [bepsays.com](http://bepsays.com/en/).
+<!--more-->
 
-My verified public key (PGP) can be found at [keybase.io/bep](https://keybase.io/bep).
+## Contact
 
-You can reach me at [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com).
+Email me at [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com). My verified public key (PGP) is at [keybase.io/bep](https://keybase.io/bep).
 
----
+## Travel
 
-And, for myself when out travelling, my current travel insurance info: 
-
-Policy Number: 8581441. trygalarm@tryg.no / +47 55 17 10 01. For non-emergency claims: +47 915 04040.
+A note to self when out travelling. Travel insurance policy number 8581441, [trygalarm@tryg.no](mailto:trygalarm@tryg.no) / [+47 55 17 10 01](tel:+4755171001). For non-emergency claims: [+47 915 04040](tel:+4791504040).

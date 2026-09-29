@@ -1,0 +1,26 @@
+{{- /*
+  The Fjærland photo, full bleed, dissolving into the page background.
+
+  Usage:
+    {{ partial "hero.html" (dict "short" false) }}
+*/ -}}
+{{- $short := .short -}}
+{{- with site.Home.Resources.GetMatch "featured-*" -}}
+	{{- $image := . -}}
+	{{- $srcset := slice -}}
+	{{- range slice 640 960 1280 1600 -}}
+		{{- $img := $image.Resize (printf "%dx webp" .) -}}
+		{{- $srcset = $srcset | append (printf "%s %dw" $img.RelPermalink $img.Width) -}}
+	{{- end -}}
+	{{- $fallback := $image.Resize "1280x" -}}
+	<div class="hero{{ if $short }} hero--short{{ end }}">
+		<img
+			src="{{ $fallback.RelPermalink }}"
+			srcset="{{ delimit $srcset `, ` }}"
+			sizes="100vw"
+			width="{{ $fallback.Width }}"
+			height="{{ $fallback.Height }}"
+			alt="{{ T `hero-alt` }}"
+			fetchpriority="high">
+	</div>
+{{- end -}}

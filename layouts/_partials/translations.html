@@ -1,0 +1,7 @@
+{{- /* Links to this page in the other languages, each labelled in its own language. */ -}}
+{{- range .Translations -}}
+	<a class="translation" href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">
+		<span class="translation__text">{{ .Site.Params.readIn | default .Language.Label }}</span>
+		<span class="translation__arrow" aria-hidden="true">→</span>
+	</a>
+{{- end -}}

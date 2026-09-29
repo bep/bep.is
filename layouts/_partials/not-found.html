@@ -1,0 +1,23 @@
+{{- /*
+  The 404 page body, with a message for each of the given sites.
+
+  Usage:
+    {{ partial "not-found.html" (slice site) }}
+*/ -}}
+<main class="shore">
+	{{ partial "hero.html" (dict "short" true) }}
+	<article class="doc">
+		<header class="doc-head">
+			<a class="wordmark wordmark--small" href="{{ site.Home.RelPermalink }}">bep.<em>is</em></a>
+			<h1 class="page-title">404</h1>
+		</header>
+		<div class="prose">
+			{{ range . }}
+				<p lang="{{ .Language.Lang }}">
+					{{ .Params.notFound }}
+					<a href="{{ .Home.RelPermalink }}">{{ .Params.backHome }}</a>
+				</p>
+			{{ end }}
+		</div>
+	</article>
+</main>

@@ -1,9 +1,11 @@
-- id: translations
-  one: "Translated"
-  other: "Translations"
-
-- id: last-updated
-  translation: "Last updated"
-
-- id: home
-  translation: "Home"
+elsewhere: "Elsewhere"
+last-updated: "Last updated"
+home: "Home"
+photo: "Photo"
+code: "code"
+work: "work"
+wiki: "wiki"
+posts: "posts"
+photos: "photography"
+writing: "writing"
+hero-alt: "Snow-capped mountains mirrored in a still fjord at Fjærland, Norway."

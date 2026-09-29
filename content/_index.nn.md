@@ -1,17 +1,16 @@
 +++
 title = "bep.is"
-lastMod = "2021-08-23"
+lastMod = "2026-09-29"
 +++
 
-bep.*is* Bjørn Erik Pedersen, ein programvareutviklar og saksofonist frå Noreg.
+Ein programvareutviklar og saksofonist frå Noreg (sjå bilete).
 
-Finn meg på [GitHub](https://github.com/bep), [LinkedIn](https://no.linkedin.com/in/bjørn-erik-pedersen-b0024415), [Wikipedia](https://nn.wikipedia.org/wiki/Brukar:Bep) og [Twitter](https://twitter.com/bepsays). Sjå eit utval av mine fotografi på [staticbattery.com](https://staticbattery.com/). Om eg har noko fornuftig å melde, skriv eg gjerne nokre ord på [bepsays.com](http://bepsays.com/).
+<!--more-->
 
-Min offentlege krypteringsnøkkel (PGP) finn du på [keybase.io/bep](https://keybase.io/bep).
+## Kontakt
 
-Du kan elles nå meg på [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com).
+Send meg ein e-post på [bjorn.erik.pedersen@gmail.com](mailto:bjorn.erik.pedersen@gmail.com). Min offentlege krypteringsnøkkel (PGP) finn du på [keybase.io/bep](https://keybase.io/bep).
 
----
+## Reise
 
-Og, for meg sjølv på reisefot, reiseforsikring: Policy Number: 8581441. trygalarm@tryg.no / +47 55 17 10 01. For non-emergency claims: +47 915 04040.
-
+Ein notis til meg sjølv på reisefot. Reiseforsikring, polisenummer 8581441, [trygalarm@tryg.no](mailto:trygalarm@tryg.no) / [+47 55 17 10 01](tel:+4755171001). Skademelding (ikkje akutt): [+47 915 04040](tel:+4791504040).

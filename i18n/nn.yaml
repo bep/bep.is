@@ -1,10 +1,11 @@
-- id: translations
-  one: "Omsetjing"
-  other: "Omsetjingar"
-
-- id: last-updated
-  translation: "Sist oppdatert"
-
-
-- id: home
-  translation: "Heim"
+elsewhere: "Andre stader"
+last-updated: "Sist oppdatert"
+home: "Heim"
+photo: "Foto"
+code: "kode"
+work: "arbeid"
+wiki: "wiki"
+posts: "innlegg"
+photos: "fotografi"
+writing: "skriving"
+hero-alt: "Snøkledde fjell som speglar seg i ein blank fjord i Fjærland."

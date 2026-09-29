@@ -1,5 +1,5 @@
 module github.com/bep/bep.is
 
-go 1.16
+go 1.26.1
 
-require github.com/bep/hugo-mod-misc/render-hooks v0.1.0 // indirect
+require github.com/bep/gitjoin.com v0.0.0-20260525184413-f431595aafb4 // indirect
