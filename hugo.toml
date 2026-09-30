@@ -31,7 +31,7 @@ disableKinds = ["taxonomy", "term", "section", "rss"]
 	authorHandle = "bep"
 	email        = "bjorn.erik.pedersen@gmail.com"
 	themeColor   = "#00212f"
-	fontsHref    = "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap"
+	fontsHref    = "https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300..700&display=swap"
 
 	# Where the hero photo was taken; shown as a caption in the footer.
 	photoCaption = "Fjærland, Sogn"
@@ -79,26 +79,27 @@ disableKinds = ["taxonomy", "term", "section", "rss"]
 		accent    = "oklch(84% 0.110 78)"
 		match-bg  = "oklch(40% 0.070 236)"
 		match-fg  = "oklch(97% 0.010 230)"
-		# font-sans is the shared token name for the body face; here it's a serif.
-		font-sans = '"Newsreader", ui-serif, Georgia, serif'
-		font-mono = '"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace'
+		# One family for everything; hierarchy comes from weight and size.
+		# font-mono is set too so the shared footer (base.css) uses it.
+		font-sans = '"Albert Sans", ui-sans-serif, system-ui, sans-serif'
+		font-mono = '"Albert Sans", ui-sans-serif, system-ui, sans-serif'
 
 [languages]
 	[languages.en]
-		weight       = 1
-		label        = "English"
-		locale       = "en-us"
+		weight = 1
+		label  = "English"
+		locale = "en-us"
 		[languages.en.params]
 			# Link text on the other translations, in this language.
-			readIn   = "Read in English"
+			readIn   = "In English"
 			notFound = "Sorry, this page doesn’t exist."
 			backHome = "Go to the front page"
 	[languages.nn]
-		weight       = 2
-		label        = "Nynorsk"
-		locale       = "nn-no"
+		weight = 2
+		label  = "Nynorsk"
+		locale = "nn-no"
 		[languages.nn.params]
-			readIn   = "Les på nynorsk"
+			readIn   = "På nynorsk"
 			notFound = "Beklagar, denne sida finst ikkje."
 			backHome = "Gå til framsida"
 

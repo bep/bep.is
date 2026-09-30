@@ -1,11 +1,11 @@
 +++
 title = "bep.is"
-lastMod = "2026-09-29"
+lastMod = "2026-09-30"
 # notfound renders the root /404.html, see hugo.toml.
 outputs = ["html", "notfound"]
 +++
 
-I’m a software developer and saxophone player from Norway (see photo).
+I’m a software developer and saxophone player from Norway.
 
 <!--more-->
 

@@ -17,7 +17,20 @@
 }
 
 body {
-  font-optical-sizing: auto;
+  font-weight: 400;
+  font-kerning: normal;
+}
+
+/* Small uppercase labels: section headings, table heads. */
+.rule,
+.prose h1,
+.prose h2,
+.prose th {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
 }
 
 .shore {
@@ -81,9 +94,9 @@ body {
 .title {
   margin: 0;
   font-size: var(--fs-title);
-  font-weight: 400;
-  line-height: 0.98;
-  letter-spacing: -0.025em;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.035em;
   color: var(--fg);
   text-wrap: balance;
 }
@@ -94,17 +107,21 @@ body {
 }
 
 .wordmark em {
-  font-style: italic;
+  font-style: normal;
+  font-weight: 400;
   color: var(--accent);
 }
 
 .title .name {
+  font-weight: 300;
+  letter-spacing: -0.03em;
   color: var(--fg-mute);
 }
 
 .lede {
   font-size: var(--fs-lede);
-  line-height: 1.35;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
   color: var(--fg);
   max-width: 30ch;
   text-wrap: pretty;
@@ -122,9 +139,7 @@ body {
   gap: 0.55em;
   margin-top: calc(var(--space-md) * -1);
   padding-block: var(--space-xs);
-  font-family: var(--font-mono);
-  font-size: var(--fs-mono);
-  letter-spacing: 0.02em;
+  font-weight: 500;
   color: var(--fg-mute);
   text-decoration: none;
   transition: color 200ms ease;
@@ -165,8 +180,9 @@ body {
 .wordmark--small {
   justify-self: start;
   font-size: var(--fs-lede);
+  font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   color: var(--fg);
   text-decoration: none;
 }
@@ -179,9 +195,9 @@ body {
 .page-title {
   margin: 0;
   font-size: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.05;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   text-wrap: balance;
 }
 
@@ -200,11 +216,6 @@ body {
   align-items: center;
   gap: var(--space-md);
   margin: 0;
-  font-family: var(--font-mono);
-  font-size: var(--fs-h2);
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  color: var(--fg-dim);
 }
 
 /* ── Elsewhere ── */
@@ -228,15 +239,15 @@ body {
 
 .links__name {
   font-size: var(--fs-lede);
-  line-height: 1.2;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
   overflow-wrap: anywhere;
   transition: color 200ms ease;
 }
 
 .links__desc {
-  font-family: var(--font-mono);
   font-size: var(--fs-label);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: var(--fg-dim);
 }
 
@@ -298,7 +309,7 @@ body {
 
 .prose strong {
   color: var(--fg);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .prose a {
@@ -354,12 +365,7 @@ body {
 }
 
 .prose th {
-  font-family: var(--font-mono);
-  font-size: var(--fs-label);
-  font-weight: 500;
-  letter-spacing: 0.04em;
   text-align: left;
-  color: var(--fg-dim);
 }
 
 .prose td:last-child,
@@ -409,6 +415,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   row-gap: var(--space-2xs);
+  letter-spacing: 0.02em;
 }
 
 /* ── Surfacing: the one bit of motion ── */

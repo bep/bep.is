@@ -3,7 +3,7 @@ title = "bep.is"
 lastMod = "2026-09-29"
 +++
 
-Ein programvareutviklar og saksofonist frå Noreg (sjå bilete).
+Ein programvareutviklar og saksofonist frå Noreg.
 
 <!--more-->
 

@@ -1,6 +1,7 @@
 ---
 title: Open Hugo Sponsorship Slot
 slug: hugo-sponsor-2023-01
+lastMod: 2026-09-30
 ---
 
 **Since you arrived here, you probably clicked on the "Your Company?" banner on one of the Hugo web sites.**
